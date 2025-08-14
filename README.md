@@ -37,7 +37,7 @@ Built with simplicity in mind — no complex database setup required!
 ├── screenshots/        # App screenshots
 └── .gitignore
 ```
-
+---
 ## 📸 Screenshots 
 
 ### Dashboard
@@ -60,41 +60,60 @@ Built with simplicity in mind — no complex database setup required!
 ```bash
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
-
 ```
 
 ### 2️⃣ Create Virtual Environment (Optional but recommended)
+```bash
 python -m venv env
 source env/bin/activate      # Linux/Mac
 env\Scripts\activate         # Windows
+```
 
 ### 3️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ### 4️⃣ Initialize Database
+```bash
 python database.py
+```
 
 ### 5️⃣ Run the Application
+```bash
 streamlit run app.py
+```
 
+---
 
 ## 🐳 Running with Docker
 ### Build the image
+```bash
 docker build -t sales_inventory_app .
+```
 
 ### Run the container
+```bash
 docker run -p 8501:8501 sales_inventory_app
-
-
-## 📜 License
-This project is licensed under the MIT License – see the LICENSE file for details.
-
-## 🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
-
-## 📧 Contact
-For any questions or suggestions:
-Your Name – nivethatk03@gmail.com
+```
 
 ---
+
+## 📜 License
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🤝 Contributing
+Pull requests are welcome!  
+For major changes, please open an issue first to discuss what you’d like to change.
+
+---
+
+## 📧 Contact
+For any questions or suggestions:  
+**Nivetha T** – [nivethatk03@gmail.com](mailto:nivethatk03@gmail.com)
+
+---
+
 
