@@ -26,25 +26,16 @@ Built with simplicity in mind — no complex database setup required!
 - **Pandas** – Data processing
 
 ---
-
 ## 📂 Project Structure
-sales_inventory/
-│
-├── app.py                 # Main Streamlit application
-├── database.py            # Database setup and schema
-├── sales_inventory.db     # SQLite database file
-├── requirements.txt       # Python dependencies
-├── Dockerfile             # Docker container setup
-├── README.md              # Project documentation
-├── screenshots/           # App screenshots
-│   ├── Dashboard.png
-│   ├── Add_Product.png
-│   ├── Update_Stock.png
-│   ├── Record_Sale.png
-│   └── View_Inventory.png
-└── LICENSE
-
----
+```plaintext
+.
+├── app.py              # Main Streamlit application
+├── database.py         # Database creation & setup
+├── sales_inventory.db  # SQLite database
+├── Dockerfile          # Docker configuration
+├── requirements.txt    # Dependencies
+├── screenshots/        # App screenshots
+└── .gitignore
 
 ## 📸 Screenshots
 
@@ -62,14 +53,16 @@ sales_inventory/
 
 ---
 
-## 🚀 Installation &amp; Setup
+## ⚙️ Installation & Running
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/Sales-Inventory-Management-System.git
-cd Sales-Inventory-Management-System
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
 
-2️⃣ Create Virtual Environment (Optional but recommended)
+
+
+### 2️⃣ Create Virtual Environment (Optional but recommended)
 python -m venv env
 source env/bin/activate      # Linux/Mac
 env\Scripts\activate         # Windows
